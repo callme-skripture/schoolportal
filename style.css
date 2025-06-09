@@ -1,0 +1,121 @@
+*{
+    outline: none;
+    padding: 0px;
+}
+body{
+    background-color: rgb(138, 43, 226);
+}
+#hd1{
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.myInfo{
+    display: flex;
+}
+.formerInfo{
+    margin-left: 200px;
+    font-size: 2em;
+    font-weight: 800;
+    color: rgb(224, 209, 238);
+}
+.latterInfo{
+    margin-left: 100px;
+    
+}
+#profileInfo1{
+    background-color: rgb(224, 209, 238);
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    margin-top: 18px;
+}
+#passPort{
+    border: 5px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 50px 0px 0px 200px;
+}
+#pImg{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    margin : -16px 0px 0px 0px;
+}
+#tData{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+table{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgb(0, 0, 0);
+}
+#inputCourse1, #unit1, #inputCA1, #inputExam1, #unit2, #inputCA2, #inputExam2, 
+#unit3, #inputCA3, #inputExam3, #unit4, #inputCA4, #inputExam4, #unit5, #inputCA5, #inputExam5, 
+#unit6, #inputCA6, #inputExam6, #unit7, #inputCA7, #inputExam7, #unit8, #inputCA8, #inputExam8, 
+#unit9, #inputCA9, #inputExam9, #unit10, #inputCA10, #inputExam10{
+    width: 60px;
+    height: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: rgb(138, 43, 226);
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#total1, #result1, #total2, #result2, #total3, #result3, #total4, #result4, 
+#total5, #result5, #total6, #result6, #total7, #result7, #total8, #result8,
+ #total9, #result9, #total10, #result10{
+    width: 60px;
+    height: 15px;
+    font-weight: 800;
+}
+.divTotal1, .divResult1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11{
+    text-align: center;
+}
+.gpaDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gpa{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(224, 209, 238);
+}
+#gpaDivResult{
+    border: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 50x;
+    text-align: center;
+}
+#gpaResultFinal{
+    width: 60px;
+    height: 12px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+#lastDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myBtn{
+    padding: 7px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
